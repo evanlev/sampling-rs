@@ -1,0 +1,14 @@
+[package]
+name = "gen_bc"
+version = "0.1.0"
+authors = ["Evan Levine <evanlevine138e@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+priority-queue = "1.1.0"
+rand = "0.8.3"
+ordered-float = "2.0"
+clap = "3.0.0-beta.2"
+threadpool = "1.8.1"
